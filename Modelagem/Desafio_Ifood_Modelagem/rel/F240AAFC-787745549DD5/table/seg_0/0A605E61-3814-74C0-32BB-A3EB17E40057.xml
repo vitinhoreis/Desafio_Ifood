@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A605E61-3814-74C0-32BB-A3EB17E40057" name="T_IC_UF">
+<createdBy>urbanop</createdBy>
+<createdTime>2021-11-11 03:17:17 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CD_UF" id="6E289B6F-FA91-BA79-6FA3-3E64573357E2">
+<createdBy>urbanop</createdBy>
+<createdTime>2021-11-11 03:18:14 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sigla" id="C6837143-F924-FC80-CB37-8A014CCE07EC">
+<createdBy>urbanop</createdBy>
+<createdTime>2021-11-11 03:18:14 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="479929AE-58A5-C98A-FB25-643CA84248FB">
+<createdBy>urbanop</createdBy>
+<createdTime>2021-11-11 03:18:39 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9A67A21-D04E-9640-E28B-8A212244D9A7" name="T_IC_UF_PK">
+<createdBy>urbanop</createdBy>
+<createdTime>2021-11-11 03:18:14 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E289B6F-FA91-BA79-6FA3-3E64573357E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

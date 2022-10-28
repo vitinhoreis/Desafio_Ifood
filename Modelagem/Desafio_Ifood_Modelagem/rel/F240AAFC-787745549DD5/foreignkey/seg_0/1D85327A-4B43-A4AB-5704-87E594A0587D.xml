@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1D85327A-4B43-A4AB-5704-87E594A0587D" containerWithKeyObject="87DEA9C0-3617-1BE9-87C2-94B3FD3813AE" localFKIndex="B4B556C2-4C5B-786E-626D-7443543CCCC6" name="T_IC_END_CIDADE_FK">
+<createdBy>urbanop</createdBy>
+<createdTime>2021-11-11 03:22:26 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<referredTableLongName>T_IC_CIDADE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6F4FDD94-B151-88C0-8736-B355C9A9E254</referredTableID>
+<keyObject>94C7D7BA-EB87-26E6-4ED0-4FA1FB8EF730</keyObject>
+<referredKeyID>94C7D7BA-EB87-26E6-4ED0-4FA1FB8EF730</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CD_CIDADE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

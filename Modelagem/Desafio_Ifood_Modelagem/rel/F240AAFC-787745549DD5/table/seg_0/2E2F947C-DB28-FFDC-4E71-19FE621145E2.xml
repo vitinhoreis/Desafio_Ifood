@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E2F947C-DB28-FFDC-4E71-19FE621145E2" name="T_IC_ESTABELECIMENTO">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-02 20:06:43 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_estabelecimento" id="D833F520-784C-C675-AE6D-D8F9E64F22EB">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-03 23:39:41 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cnpj" id="DED82C5D-8729-B0DA-E550-B248DDEF2508">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-06 01:21:53 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_estabelecimento" id="58E971EF-980F-5F57-6C5A-1FB5553175EF">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-03 23:41:09 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="razao_social" id="47616009-DDF8-1F0B-0D3D-306FC7989585">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-06 01:23:39 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="90F19418-7E1A-1EDA-ED7B-5AD35F5D2535">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-06 01:31:25 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_contato_criacao" id="4276E4A7-BC55-F045-086C-70F6DC35398D">
+<createdBy>pc_br</createdBy>
+<createdTime>2021-11-07 23:15:40 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1FF5A8D1-0D18-2A9B-A3CF-32CC9BF08D76" referredColumn="11298AE0-040B-6FF9-192E-EE10E3639DAD"/>
+</associations>
+</Column>
+<Column name="cd_categoria" id="2E669C38-0BE3-4D78-EDA4-062E54DB1ACF">
+<createdBy>pc_br</createdBy>
+<createdTime>2021-11-07 23:26:56 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B2660EF-F97D-8286-E4E1-D71E99CA04EF" referredColumn="130BE5AB-6580-0573-EBEB-3EFD147FF4C1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84A5C403-5D37-3960-9015-7307220042B1" name="T_IC_ESTABELECIMENTO_PK">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-03 23:42:22 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D833F520-784C-C675-AE6D-D8F9E64F22EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FFA665F2-6848-36E4-99E0-0D0967F8482A" name="T_IC_ESTABELECIMENTO__UN">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-06 01:57:14 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DED82C5D-8729-B0DA-E550-B248DDEF2508"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F7C42C0-8EB3-FA96-A495-A4B731A0D9E5" name="T_IC_ESTAB_CONTATO_FK">
+<createdBy>pc_br</createdBy>
+<createdTime>2021-11-07 23:15:40 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4276E4A7-BC55-F045-086C-70F6DC35398D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F565060-C1FE-0561-6F1F-BA136837AD64" name="T_IC_ESTAB_CAT_FK">
+<createdBy>pc_br</createdBy>
+<createdTime>2021-11-07 23:26:56 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E669C38-0BE3-4D78-EDA4-062E54DB1ACF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

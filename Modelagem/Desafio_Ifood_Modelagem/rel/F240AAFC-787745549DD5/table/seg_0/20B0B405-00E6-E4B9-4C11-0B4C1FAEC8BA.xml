@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20B0B405-00E6-E4B9-4C11-0B4C1FAEC8BA" name="T_IC_PREMIACAO">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-06 02:05:14 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_premiacao" id="188D5322-311B-6F0E-83B7-7AE8B42863D6">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-06 02:06:46 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_estabelecimento" id="266D2ED6-C5F1-DDAE-67A5-8063AED9DB3B">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-06 02:10:09 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E696F52-BFF0-D868-9B68-51957BECB37D" referredColumn="D833F520-784C-C675-AE6D-D8F9E64F22EB"/>
+</associations>
+</Column>
+<Column name="nm_premiacao" id="87733FCE-C8E0-1C76-CEB3-B87C5D7D17EF">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-06 02:07:07 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_premiacao" id="78F3E7AD-E235-2467-8388-F249A692F4B0">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-06 02:08:15 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prem_classificacao" id="D9F35C6A-8DAF-F780-C38B-98FEB74126F5">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-06 02:09:43 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dsc_premiacao" id="B462DA3A-7712-8747-7C7B-227893538E15">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-06 02:07:36 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A762FF8-0ABC-DFCB-1715-D65D08675E0E" name="T_IC_PREMIACAO_PK">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-06 02:07:36 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="188D5322-311B-6F0E-83B7-7AE8B42863D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74DA0839-1A78-3CA2-36C8-635E25CC2791" name="T_IC_PREM_ESTAB_FK">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-06 02:10:09 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="266D2ED6-C5F1-DDAE-67A5-8063AED9DB3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

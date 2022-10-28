@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9CFA50D0-82CE-04C0-0729-2B6BE3E397E9" name="T_IC_RESPONSAVEL">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-04 00:27:14 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_responsavel" id="6DC3AA52-2453-A059-D6E7-E446569167F8">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-04 00:47:17 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_estabelecimento" id="6F04CFA6-E758-33D1-F986-3927E9D85703">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-06 01:47:57 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6D3F607-A0F8-375E-442B-1D502B59FB86" referredColumn="D833F520-784C-C675-AE6D-D8F9E64F22EB"/>
+</associations>
+</Column>
+<Column name="nm_responsavel" id="328E08FD-19F3-DAC7-B154-008B08FCAE9C">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-04 00:47:40 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf_responsavel" id="133DCD5F-9EE3-E307-A2B9-CC13E2C939F2">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-04 00:48:06 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rg_responsavel" id="00933A5D-CC8D-F720-1600-14746849AD4F">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-04 20:22:47 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D294EDE-2D73-2FB7-7DF7-8764C06BA9FF" name="T_IC_PF_PK">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-04 00:47:43 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DC3AA52-2453-A059-D6E7-E446569167F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C5C7D8E-1CB1-8D82-10E4-59BCF5FEA5BA" name="T_IC_RESP_ESTAB_FK">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-06 01:47:57 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F04CFA6-E758-33D1-F986-3927E9D85703"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="87DEA9C0-3617-1BE9-87C2-94B3FD3813AE" name="T_IC_ENDERECO">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-04 00:26:07 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_endereco" id="5C2436E8-BF0B-5A32-A816-35032D568C2B">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-04 00:32:34 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_estabelecimento" id="871AD06B-48C1-A78C-53FF-7495328358B6">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-04 19:52:48 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5BF8323-F9A1-4B64-50B3-216879482616" referredColumn="D833F520-784C-C675-AE6D-D8F9E64F22EB"/>
+</associations>
+</Column>
+<Column name="logradouro" id="6EBFCEB5-FCD6-9706-87E2-0251F3C3EAC7">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-04 00:34:35 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_endereco" id="D67248AB-D4D4-B06D-7FFD-84E69A5B6A1F">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-04 00:35:46 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cep" id="B08A2A4D-C80F-D0D5-95D6-AC3BCB625613">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-04 00:38:08 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="complemento" id="AE3DA692-69F5-EC10-6D16-6C7EC119DD66">
+<createdBy>pc_br</createdBy>
+<createdTime>2021-11-07 23:52:29 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_CIDADE" id="80FB8EA0-5E43-B615-D0E8-948B7A361C6B">
+<createdBy>urbanop</createdBy>
+<createdTime>2021-11-11 03:22:26 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D85327A-4B43-A4AB-5704-87E594A0587D" referredColumn="2874FC0F-69A0-4DE9-D922-08AB784FF567"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EFE0D72B-DDFA-0374-89D3-4F76F28E4A41" name="T_IC_ENDERECO_PK">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-04 00:38:08 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C2436E8-BF0B-5A32-A816-35032D568C2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CFCC24F3-FE4B-EA32-DFA4-1C5FE98FD14E" name="T_IC_END_ESTAB_FK">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-04 19:52:48 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="871AD06B-48C1-A78C-53FF-7495328358B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4B556C2-4C5B-786E-626D-7443543CCCC6" name="T_IC_END_CIDADE_FK">
+<createdBy>urbanop</createdBy>
+<createdTime>2021-11-11 03:22:26 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80FB8EA0-5E43-B615-D0E8-948B7A361C6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

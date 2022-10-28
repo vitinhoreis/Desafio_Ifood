@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6B2660EF-F97D-8286-E4E1-D71E99CA04EF" containerWithKeyObject="2E2F947C-DB28-FFDC-4E71-19FE621145E2" localFKIndex="7F565060-C1FE-0561-6F1F-BA136837AD64" name="T_IC_ESTAB_CAT_FK">
+<createdBy>pc_br</createdBy>
+<createdTime>2021-11-07 23:26:56 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<referredTableLongName>T_IC_CATEGORIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5368DD35-518E-A8C4-724E-F682AF0CCE82</referredTableID>
+<keyObject>53D41FFD-320D-BABF-04DE-FD1D8DC5C7C8</keyObject>
+<referredKeyID>53D41FFD-320D-BABF-04DE-FD1D8DC5C7C8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_categoria</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

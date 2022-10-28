@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A4282EB-F4F0-103C-E3FB-5211CF2F6FFE" name="T_IC_GEO">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-04 00:48:13 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_geocode" id="8EC40A54-504E-0965-B790-AA0FABEEFB64">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-04 00:49:36 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>300</dataTypePrecision>
+<ownDataTypeParameters>,300,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_estabelecimento" id="837561B4-19DE-ABCB-25A6-70C49AF65D69">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-04 19:55:34 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="535FD56A-3316-AA3B-99F2-4D25EF213711" referredColumn="D833F520-784C-C675-AE6D-D8F9E64F22EB"/>
+</associations>
+</Column>
+<Column name="geo_code" id="FBCBC2BD-8EF0-2EF2-9930-43C5CE651C5A">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-04 00:50:09 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="complemento" id="BA00CE47-DCD5-00A3-74E9-8E3C58A3EB8C">
+<createdBy>pc_br</createdBy>
+<createdTime>2021-11-07 23:18:06 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BA2779B0-E14B-C5DE-6E24-E82114192353" name="T_IC_GEO_PK">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-04 00:49:46 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EC40A54-504E-0965-B790-AA0FABEEFB64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9554B1F-E1C5-9621-A3F7-57D86784E401" name="T_IC_GEO_T_IC_RESTAURANTES_FK">
+<createdBy>PC</createdBy>
+<createdTime>2021-11-04 19:55:34 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="837561B4-19DE-ABCB-25A6-70C49AF65D69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

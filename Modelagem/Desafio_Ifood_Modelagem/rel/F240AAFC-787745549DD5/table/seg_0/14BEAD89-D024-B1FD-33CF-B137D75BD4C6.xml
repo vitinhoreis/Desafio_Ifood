@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="14BEAD89-D024-B1FD-33CF-B137D75BD4C6" name="T_IC_VALOR">
+<createdBy>urbanop</createdBy>
+<createdTime>2021-11-11 14:34:36 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CD_VALOR" id="B7F59025-5B0D-5890-0F71-0FA91F52619B">
+<createdBy>urbanop</createdBy>
+<createdTime>2021-11-11 14:36:03 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_valor" id="22E1B5E1-AC24-1D30-121E-5C0D4F624C42">
+<createdBy>urbanop</createdBy>
+<createdTime>2021-11-11 14:36:03 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_estabelecimento" id="69AEBE2C-4A2A-8E0F-D163-EB0106B80B3D">
+<createdBy>urbanop</createdBy>
+<createdTime>2021-11-11 14:36:15 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="611B2B22-A98B-D4B5-C36E-C771AF2A9329" referredColumn="D833F520-784C-C675-AE6D-D8F9E64F22EB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08B74695-610A-34C2-5356-8A51BC4DC377" name="T_IC_VALOR_PK">
+<createdBy>urbanop</createdBy>
+<createdTime>2021-11-11 18:27:13 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7F59025-5B0D-5890-0F71-0FA91F52619B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30D09667-346E-AFD5-7CDD-AA78E3E3353C" name="T_IC_VALOR_ESTAB_FK">
+<createdBy>urbanop</createdBy>
+<createdTime>2021-11-11 14:36:15 UTC</createdTime>
+<ownerDesignName>Desafio_Ifood_Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69AEBE2C-4A2A-8E0F-D163-EB0106B80B3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
